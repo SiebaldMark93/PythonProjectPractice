@@ -1,8 +1,10 @@
-# Write your code below this line 👇
-print("Hello world!\nHello World!\nHello World!")
-print("Hello" + " " + "Mark!")
+name = "Mark"
+print(name)
 
-# input() will get user input in console
-# Then print() will print the word "hello" and the user input
-print("Hello " + input("What is your name?"))
-print(len(input("What is your name?")))
+name = "Monica"
+print(name)
+
+print( len( input("What is your name") ) )
+name = input("What is your name?")
+length = len(name)
+print(length)
